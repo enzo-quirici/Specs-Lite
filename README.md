@@ -1,6 +1,6 @@
-# Specs :
+# Specs Lite :
 
-### A Java application that displays detailed information about your PC's hardware.
+### Specs Lite is a striped down version of Java App [Specs](https://github.com/enzo-quirici/Specs/blob/master/INSTALL.md)
 
 ![img.png](img.png)
 
@@ -18,7 +18,7 @@
 ⚙️ CPU : 64 bits CPU  
 💾 RAM : 512 MO of RAM  
 💿 Storage : 512 Mo of free space  
-☕ Java : JDK 17 or better (.jar)  
+☕ Java : JDK 14 or bette
 
 # Project Status :
 
@@ -26,17 +26,16 @@
 - ✅ Yes
 - ❌ No
 - ⚠️ Partial or Special Case
-- 🟧 Not Available/Unknown
 
-| OS           | Launch    | Installer | Standalone Version   | Icon | Stress Test | OS | CPU  | RAM  | VRAM  |
-|--------------|-----------|-----------|----------------------|------|-------------|----|------|------|-------|
-| Windows      | ✅        | ✅        | ✅                  | ✅   | ✅          | ✅ | ✅  | ✅   | ✅    |
-| Arch Linux   | ✅        | ✅        | ✅                  | ✅   | ✅          | ✅ | ✅  | ✅   | ✅    |
-| Ubuntu       | ✅        | ✅        | ✅                  | ✅   | ✅          | ✅ | ✅  | ✅   | ✅    |
-| Debian       | ✅        | ✅        | ✅                  | ✅   | ✅          | ✅ | ✅  | ✅   | ✅    |
-| Fedora       | ✅        | ✅        | ✅                  | ✅   | ✅          | ✅ | ✅  | ✅   | ✅    |
-| Gentoo Linux | ✅        | ✅        | ✅                  | ✅   | ✅          | ✅ | ✅  | ✅   | ✅    |
-| Mac OS       | ✅        | ✅        | ✅                  | ✅   | ✅          | ✅ | ✅  | ✅   | ✅    |
+| OS            | Icon | OS | CPU  | RAM  | VRAM  |
+|---------------|---|------|------|-------|-------|
+| Windows       | ✅ | ✅  | ✅   | ✅    |✅    |
+| Arch Linux    | ✅ | ✅  | ✅   | ✅    |✅    |
+| Ubuntu        | ✅ | ✅  | ✅   | ✅    |✅    |
+| Debian        | ✅ | ✅  | ✅   | ✅    |✅    |
+| Fedora        | ✅ | ✅  | ✅   | ✅    |✅    |
+| Gentoo Linux  | ✅ | ✅  | ✅   | ✅    |✅    |
+| Mac OS        | ✅ | ✅  | ✅   | ✅    |✅    |
 
 # Validation :
 
@@ -46,17 +45,6 @@
 - currently there is no official server available, but you can create one by using the guide [how to create you own Specs Server](https://github.com/enzo-quirici/Specs-Server/).
 
 # dependency :
-
-## libjpeg turbo 8 :
-
-This is a dependency that may be necessary to install the .deb file on certain Linux distributions based on Debian.
-
-### Debian :
-
-```bash
-wget http://mirrors.kernel.org/ubuntu/pool/main/libj/libjpeg-turbo/libjpeg-turbo8_2.1.2-0ubuntu1_amd64.deb  
-sudo apt install ./libjpeg-turbo8_2.1.2-0ubuntu1_amd64.deb
-```
 
 ## glxinfo :  
 

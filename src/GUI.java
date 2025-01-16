@@ -11,7 +11,7 @@ public class GUI {
     static ImageIcon osIcon;
     static ImageIcon cpuIcon;
     static ImageIcon ramIcon;
-    static ImageIcon gpuIcon; // Global icons
+    static ImageIcon gpuIcon;
 
     public static void main(String[] args) {
 
